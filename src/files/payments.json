@@ -1,0 +1,45 @@
+{
+  "type": "PaymentsCollection",
+  "payments": [
+    {
+      "user": "Alice",
+      "location": "New York, USA",
+      "amount": 120,
+      "time": "2024-05-01 10:00",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    {
+      "user": "Bob",
+      "location": "Paris, France",
+      "amount": 85,
+      "time": "2024-05-03 14:30",
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    {
+      "user": "Chen",
+      "location": "Beijing, China",
+      "amount": 60,
+      "time": "2024-05-05 09:15",
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    {
+      "user": "Diego",
+      "location": "Buenos Aires, Argentina",
+      "amount": 150,
+      "time": "2024-05-08 18:45",
+      "lat": -34.6037,
+      "lng": -58.3816
+    },
+    {
+      "user": "Eva",
+      "location": "Sydney, Australia",
+      "amount": 200,
+      "time": "2024-05-10 21:00",
+      "lat": -33.8688,
+      "lng": 151.2093
+    }
+  ]
+}

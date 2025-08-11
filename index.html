@@ -6,13 +6,32 @@
     <style>
       body {
         margin: 0;
+        display: flex;
+        font-family: sans-serif;
+        color: #fff;
       }
       canvas {
         display: block;
       }
+      .info-list {
+        width: 200px;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        overflow-y: auto;
+      }
+      .info-item {
+        margin-bottom: 10px;
+      }
+      .globe-container {
+        flex: 1;
+        position: relative;
+      }
     </style>
   </head>
   <body>
+    <div id="left-list" class="info-list"></div>
+    <div id="globe" class="globe-container"></div>
+    <div id="right-list" class="info-list"></div>
     <script src="./main.js"></script>
   </body>
 </html>
